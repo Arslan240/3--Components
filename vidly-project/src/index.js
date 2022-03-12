@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Movies from './components/movies';
 import reportWebVitals from './reportWebVitals';
+// both these libraries are installed under node_modules, when webpack, check this it'll pull these css files.
+import 'bootstrap/dist/css/bootstrap.css'
+import 'font-awesome/css/font-awesome.css'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Movies />
   </React.StrictMode>,
   document.getElementById('root')
 );
