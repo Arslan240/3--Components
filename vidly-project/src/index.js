@@ -11,8 +11,8 @@ import 'font-awesome/css/font-awesome.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Movies /> */}
-    <Movies_my />
+    <Movies />
+    {/* <Movies_my /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
