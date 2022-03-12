@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Movies from './components/movies';
+import Movies_my from './components/movies_my';
 import reportWebVitals from './reportWebVitals';
 // both these libraries are installed under node_modules, when webpack, check this it'll pull these css files.
 import 'bootstrap/dist/css/bootstrap.css'
@@ -10,7 +11,8 @@ import 'font-awesome/css/font-awesome.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Movies />
+    {/* <Movies /> */}
+    <Movies_my />
   </React.StrictMode>,
   document.getElementById('root')
 );
